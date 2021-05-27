@@ -84,7 +84,7 @@ class _TestMeState extends State<TestMe> {
           errorText: 'Comment cannot be blank',
           withBorder: false,
           sendButtonMethod: () {
-            if (formKey.currentState!.validate()) {
+            if (formKey.currentState.validate()) {
               print(commentController.text);
               setState(() {
                 var value = {
