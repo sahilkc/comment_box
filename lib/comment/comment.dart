@@ -37,9 +37,9 @@ class CommentBox extends StatelessWidget {
       children: [
         SizedBox(height: 20,),
         ListTile(
-          tileColor: backgroundColor,
+          tileColor: Colors.white,
           leading: Icon(
-            Icons.stop,color: Colors.black,
+            Icons.add_comment,color: Colors.black,
           ),
           title: Form(
             key: formKey,

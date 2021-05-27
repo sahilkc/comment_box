@@ -104,8 +104,8 @@ class _TestMeState extends State<TestMe> {
           formKey: formKey,
           commentController: commentController,
           backgroundColor: Colors.pink,
-          textColor: Colors.white,
-          sendWidget: Icon(Icons.send_sharp, size: 30, color: Colors.white),
+          textColor: Colors.black,
+          sendWidget: Icon(Icons.send_sharp, size: 30, color: Colors.black),
         ),
       ),
     );
